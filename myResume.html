@@ -2,13 +2,51 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>履歷 - AU114011110</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>AU114001001 履歷</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <div class="resume">
-    <h1>王小明</h1>
-    <p><strong>學號：</strong>AU114011110</p>
-    <p><stro
+  <div class="resume-container">
+    <header>
+      <h1>王大明</h1>
+      <p>學號：AU114001001</p>
+      <p>電子郵件：example@email.com</p>
+      <p>電話：0912-345-678</p>
+    </header>
+    <section>
+      <h2>自我介紹</h2>
+      <p>
+        我是王大明，目前就讀於XX大學資訊工程學系，對於網頁設計及前端技術充滿熱忱，喜歡學習新技術並樂於解決問題。
+      </p>
+    </section>
+    <section>
+      <h2>學歷</h2>
+      <ul>
+        <li>
+          XX大學 資訊工程學系<br>
+          2021年9月 - 2025年6月
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>技能</h2>
+      <ul id="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+      <input type="text" id="skill-input" placeholder="新增技能...">
+      <button onclick="addSkill()">新增技能</button>
+    </section>
+    <section>
+      <h2>經驗</h2>
+      <ul>
+        <li>2024 暑假：XX 公司前端實習生</li>
+        <li>2023 校內網頁設計比賽第三名</li>
+      </ul>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
